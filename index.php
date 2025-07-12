@@ -114,11 +114,17 @@ $id = (isset($_GET['id'])) ? $_GET['id'] : '';
                 selectedDivision: '',
                 selectedSpecialty: '',
                 divisions: [
-                    { value: 'Redes', text: 'Redes' },
-                    { value: 'Tics', text: 'Tics' }
+                    { value: 'División Académica de Administración', text: 'División Académica de Administración' },
+                    { value: 'División Académica de Ciencias de la Salud', text: 'División Académica de Ciencias de la Salud' },
+                    { value: 'División Académica de Contabilidad Corporativa', text: 'División Académica de Contabilidad Corporativa' },
+                    { value: 'División Académica de Informática', text: 'División Académica de Informática' },
+                    { value: 'División Académica de Mantenimiento Industrial y Mecatrónica', text: 'División Académica de Mantenimiento Industrial y Mecatrónica' },
+                    { value: 'División Académica de Procesos de Producción', text: 'División Académica de Procesos de Producción' },
+                    { value: 'División Académica de Tecnología Ambiental', text: 'División Académica de Tecnología Ambiental' },
+                    { value: 'División Académica de Telemática', text: 'División Académica de Telemática' }
                 ],
                 allSpecialties: {
-                    Redes: [
+                    'División Académica de Telemática': [
                         { value: 'Infraestructura de Redes', text: 'Infraestructura de Redes' },
                         { value: 'Redes Inteligentes', text: 'Redes Inteligentes' }
                     ],
