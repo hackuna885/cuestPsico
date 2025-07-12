@@ -7,4 +7,4 @@ for /f "tokens=1-3 delims=:. " %%a in ("%time%") do (
     set "current_time=%%a-%%b-%%c"
 )
 git commit -m "%current_date% %current_time%"
-git push -u origin main
+git push -u origin master
