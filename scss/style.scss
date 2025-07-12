@@ -1,0 +1,23 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  position: relative;
+  height: 100vh;
+  min-height: 25rem;
+  width: 100%;
+}
+
+// body {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   min-height: 100%;
+// }
+.centrado-h-v {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
