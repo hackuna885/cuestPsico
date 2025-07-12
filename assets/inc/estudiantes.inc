@@ -71,9 +71,9 @@
                                         </select>
                                     </div>
                                     <div class="col-sm-6"></div>
-                                    <div class="col-sm-12 mb-3" v-if="selectedDivision">
+                                    <div class="col-sm-12 mb-3">
                                         <label class="form-label">Programa Educativo:</label>
-                                        <select class="form-control custom-select" v-model="selectedSpecialty">
+                                        <select class="form-control custom-select" v-model="selectedSpecialty" :disabled="!selectedDivision">
                                             <option value="">Selecciona una especialidad</option>
                                             <option v-for="specialty in filteredSpecialties" :key="specialty.value" :value="specialty.value">
                                                 {{ specialty.text }}
