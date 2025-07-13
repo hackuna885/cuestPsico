@@ -14,7 +14,7 @@
                             </h1>
                             <br>
                             <p class="text-justify">
-                                Los paciente de primera vez, deberán registrarse en
+                                Los y las paciente de primera vez, deberán registrarse en
                                 la plataforma con los siguientes datos, para crear una
                                 cuenta en la plataforma, y de esta manera estar
                                 gestionando sus citas de seguimiento con su terapeuta

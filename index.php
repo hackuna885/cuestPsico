@@ -119,14 +119,14 @@ $id = (isset($_GET['id'])) ? $_GET['id'] : '';
                     { value: 'División Académica de Contabilidad Corporativa', text: 'División Académica de Contabilidad Corporativa' },
                     { value: 'División Académica de Informática', text: 'División Académica de Informática' },
                     { value: 'División Académica de Mantenimiento Industrial y Mecatrónica', text: 'División Académica de Mantenimiento Industrial y Mecatrónica' },
-                    { value: 'División Académica de Procesos de Producción', text: 'División Académica de Procesos de Producción' },
                     { value: 'División Académica de Tecnología Ambiental', text: 'División Académica de Tecnología Ambiental' },
                     { value: 'División Académica de Telemática', text: 'División Académica de Telemática' }
                 ],
                 allSpecialties: {
-                    'División Académica de Administración': [
+                    'División Académica de Administración': [                        
                         { value: 'T.S.U. en Contaduría', text: 'T.S.U. en Contaduría' },
                         { value: 'T.S.U. en Contaduría, área Finanzas', text: 'T.S.U. en Contaduría, área Finanzas' },
+                        { value: 'T.S.U. en Emprendimiento, Formulación y Evaluación de Proyectos', text: 'T.S.U. en Emprendimiento, Formulación y Evaluación de Proyectos' },
                         { value: 'T.S.U. en Gestión de Capital Humano', text: 'T.S.U. en Gestión de Capital Humano' },
                         { value: 'T.S.U. en Administración Área Capital Humano', text: 'T.S.U. en Administración Área Capital Humano' },
                         { value: 'Licenciatura en Gestión de Capital Humano', text: 'Licenciatura en Gestión de Capital Humano' }
@@ -140,8 +140,7 @@ $id = (isset($_GET['id'])) ? $_GET['id'] : '';
                     'División Académica de Contabilidad Corporativa': [
                         { value: 'T.S.U. en Transporte y Movilidad', text: 'T.S.U. en Transporte y Movilidad' },
                         { value: 'T.S.U. en Mercadotecnia', text: 'T.S.U. en Mercadotecnia' },
-                        { value: 'T.S.U. en Logística Área Transporte Terrestre', text: 'T.S.U. en Logística Área Transporte Terrestre' },
-                        { value: 'T.S.U. en Emprendimiento, Formulación y Evaluación de Proyectos', text: 'T.S.U. en Emprendimiento, Formulación y Evaluación de Proyectos' },
+                        { value: 'T.S.U. en Logística Área Transporte Terrestre', text: 'T.S.U. en Logística Área Transporte Terrestre' },                        
                         { value: 'T.S.U. en Cadena de Suministro', text: 'T.S.U. en Cadena de Suministro' },
                         { value: 'Licenciatura en Contaduría', text: 'Licenciatura en Contaduría' },
                         { value: 'Licenciatura en Innovación de Negocios y Mercadotecnia', text: 'Licenciatura en Innovación de Negocios y Mercadotecnia' }

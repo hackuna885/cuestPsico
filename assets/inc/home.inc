@@ -15,12 +15,12 @@
                             </h1>
                             <br>
                             <p class="text-justify">
-                                1. Es obligatorio que todos (a) los (a) pacientes que
+                                1. Es un requisito obligatorio que todos (a) los (a) pacientes que
                                 solicitan el servicio de atención psicológica por
                                 primera vez tomen la plática de inducción, donde se
                                 brinda información importante sobre sus orientaciones
                                 psicológicas, así como los lineamientos y reglamento
-                                del uso de servicio. Esta plática se imparte todos los
+                                del uso del servicio. Esta plática se imparte todos los
                                 días lunes a las 11: 00 am y a las 4:00 pm.
                                 <br />
                                 <br />
