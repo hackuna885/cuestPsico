@@ -124,12 +124,64 @@ $id = (isset($_GET['id'])) ? $_GET['id'] : '';
                     { value: 'División Académica de Telemática', text: 'División Académica de Telemática' }
                 ],
                 allSpecialties: {
-                    'División Académica de Telemática': [
-                        { value: 'Infraestructura de Redes', text: 'Infraestructura de Redes' },
-                        { value: 'Redes Inteligentes', text: 'Redes Inteligentes' }
+                    'División Académica de Administración': [
+                        { value: 'T.S.U. en Contaduría', text: 'T.S.U. en Contaduría' },
+                        { value: 'T.S.U. en Contaduría, área Finanzas', text: 'T.S.U. en Contaduría, área Finanzas' },
+                        { value: 'T.S.U. en Gestión de Capital Humano', text: 'T.S.U. en Gestión de Capital Humano' },
+                        { value: 'T.S.U. en Administración Área Capital Humano', text: 'T.S.U. en Administración Área Capital Humano' },
+                        { value: 'Licenciatura en Gestión de Capital Humano', text: 'Licenciatura en Gestión de Capital Humano' }
                     ],
-                    Tics: [
-                        { value: 'Desarrollo de Software', text: 'Desarrollo de Software' }
+                    'División Académica de Ciencias de la Salud': [
+                        { value: 'T.S.U. en Enfermería', text: 'T.S.U. en Enfermería' },
+                        { value: 'T.S.U. en Terapia Física área Rehabilitación', text: 'T.S.U. en Terapia Física área Rehabilitación' },
+                        { value: 'Licenciatura en Enfermería', text: 'Licenciatura en Enfermería' },
+                        { value: 'Licenciatura en Terapia Física', text: 'Licenciatura en Terapia Física' }
+                    ],
+                    'División Académica de Contabilidad Corporativa': [
+                        { value: 'T.S.U. en Transporte y Movilidad', text: 'T.S.U. en Transporte y Movilidad' },
+                        { value: 'T.S.U. en Mercadotecnia', text: 'T.S.U. en Mercadotecnia' },
+                        { value: 'T.S.U. en Logística Área Transporte Terrestre', text: 'T.S.U. en Logística Área Transporte Terrestre' },
+                        { value: 'T.S.U. en Emprendimiento, Formulación y Evaluación de Proyectos', text: 'T.S.U. en Emprendimiento, Formulación y Evaluación de Proyectos' },
+                        { value: 'T.S.U. en Cadena de Suministro', text: 'T.S.U. en Cadena de Suministro' },
+                        { value: 'Licenciatura en Contaduría', text: 'Licenciatura en Contaduría' },
+                        { value: 'Licenciatura en Innovación de Negocios y Mercadotecnia', text: 'Licenciatura en Innovación de Negocios y Mercadotecnia' }
+                    ],
+                    'División Académica de Informática': [
+                        { value: 'T.S.U. en T.I. Área Desarrollo de Software Multiplataforma', text: 'T.S.U. en T.I. Área Desarrollo de Software Multiplataforma' },
+                        { value: 'T.S.U. en Desarrollo de Software Multiplataforma', text: 'T.S.U. en Desarrollo de Software Multiplataforma' },
+                        { value: 'Ingeniería en Desarrollo y Gestión de Software', text: 'Ingeniería en Desarrollo y Gestión de Software' }
+                    ],
+                    'División Académica de Mantenimiento Industrial y Mecatrónica': [
+                        { value: 'T.S.U. en Procesos Industriales área Tecnología Gráfica', text: 'T.S.U. en Procesos Industriales área Tecnología Gráfica' },
+                        { value: 'T.S.U. en Procesos Industriales Área Automotriz', text: 'T.S.U. en Procesos Industriales Área Automotriz' },
+                        { value: 'T.S.U. en Mecatrónica Área Sistemas de Manufactura Flexible', text: 'T.S.U. en Mecatrónica Área Sistemas de Manufactura Flexible' },
+                        { value: 'T.S.U. en Mecatrónica', text: 'T.S.U. en Mecatrónica' },
+                        { value: 'T.S.U. en Mantenimiento Industrial', text: 'T.S.U. en Mantenimiento Industrial' },
+                        { value: 'T.S.U. en Mantenimiento área Industrial', text: 'T.S.U. en Mantenimiento área Industrial' },
+                        { value: 'T.S.U. en Automotriz', text: 'T.S.U. en Automotriz' },
+                        { value: 'T.S.U. en Desarrollo de Negocios Área Mercadotecnia', text: 'T.S.U. en Desarrollo de Negocios Área Mercadotecnia' },
+                        { value: 'Ingeniería en Mantenimiento Industrial', text: 'Ingeniería en Mantenimiento Industrial' },
+                        { value: 'Ingeniería en Mecatrónica', text: 'Ingeniería en Mecatrónica' },
+                        { value: 'Ingeniería en Sistemas Productivos', text: 'Ingeniería en Sistemas Productivos' }
+                    ],
+                    'División Académica de Tecnología Ambiental': [
+                        { value: 'T.S.U. en Química Área Tecnología Ambiental', text: 'T.S.U. en Química Área Tecnología Ambiental' },
+                        { value: 'T.S.U. en Nanotecnología Área Materiales', text: 'T.S.U. en Nanotecnología Área Materiales' },
+                        { value: 'T.S.U. en Nanotecnología', text: 'T.S.U. en Nanotecnología' },
+                        { value: 'T.S.U. en Gestión Ambiental', text: 'T.S.U. en Gestión Ambiental' },
+                        { value: 'T.S.U. en Energías Renovables Área Energía Solar', text: 'T.S.U. en Energías Renovables Área Energía Solar' },
+                        { value: 'T.S.U. en Biotecnología', text: 'T.S.U. en Biotecnología' },
+                        { value: 'Ingeniería en Energías Renovables', text: 'Ingeniería en Energías Renovables' },
+                        { value: 'Ingeniería en Nanotecnología', text: 'Ingeniería en Nanotecnología' },
+                        { value: 'Ingeniería en Tecnología Ambiental', text: 'Ingeniería en Tecnología Ambiental' }
+                    ],
+                    'División Académica de Telemática': [
+                        { value: 'T.S.U. en T.I. Área Infraestructura de Redes Digitales', text: 'T.S.U. en T.I. Área Infraestructura de Redes Digitales' },
+                        { value: 'T.S.U. en Infraestructura de Redes Digitales', text: 'T.S.U. en Infraestructura de Redes Digitales' },
+                        { value: 'T.S.U. en Diseño y Animación Digital', text: 'T.S.U. en Diseño y Animación Digital' },
+                        { value: 'T.S.U. en Diseño Digital Área Animación', text: 'T.S.U. en Diseño Digital Área Animación' },
+                        { value: 'Licenciatura en Diseño Digital y Producción Audiovisual', text: 'Licenciatura en Diseño Digital y Producción Audiovisual' },
+                        { value: 'Ingeniería en Redes Inteligentes y Ciberseguridad', text: 'Ingeniería en Redes Inteligentes y Ciberseguridad' }
                     ]
                 }
             },

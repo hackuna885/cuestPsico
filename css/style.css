@@ -8,6 +8,12 @@ html {
   min-height: 25rem;
   width: 100%; }
 
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1); }
+
 .centrado-h-v {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -18,5 +24,11 @@ html {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; }
+
+input[type="radio"] {
+  /* IE 9 */
+  -webkit-transform: scale(2);
+  /* Chrome, Safari, Opera */
+  transform: scale(2); }
 
 /*# sourceMappingURL=style.css.map */
